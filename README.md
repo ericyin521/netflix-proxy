@@ -4,8 +4,8 @@
 
 find a (recent)[n19](https://github.com/ab77/netflix-proxy#footnotes) Debian or Ubuntu box with root on a clean public IP and run:
 
-    apt-get update\
-	  && apt-get -y install vim dnsutils curl sudo\
+    apt update\
+	  && apt -y install vim dnsutils curl sudo\
 	  && curl -fsSL https://get.docker.com/ | sh || apt-get -y install docker.io\
 	  && mkdir -p ~/netflix-proxy\
 	  && cd ~/netflix-proxy\
